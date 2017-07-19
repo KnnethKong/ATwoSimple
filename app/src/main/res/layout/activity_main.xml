@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/content_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/main_top"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#680a0b"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:id="@+id/main_applogo"
+                    android:layout_width="90dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginLeft="5sp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/app_logo" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="vertical"/>
+
+                <TextView
+                    android:id="@+id/textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="8dp"
+                    android:text="第七届北京国际电影节"
+                    android:textColor="#ffff"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:id="@+id/main_selct_liner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:onClick="kxfSelctLua"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="kxfSelctLua"
+                        android:text="中文/Eng"
+                        android:textColor="#ffff"
+                        android:textSize="12dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/app_arrow"
+                        android:visibility="invisible" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom_layout_l"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#eee"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/bottom_shouye"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="mainOne"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/main_imgone"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/shou_ye"
+                    android:onClick="mainOne" />
+
+                <TextView
+                    android:id="@+id/main_txtone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="mainOne"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bottom_richeng"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="mainTwo"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/main_imgtwo"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/richeng"
+                    android:onClick="mainTwo" />
+
+                <TextView
+                    android:id="@+id/main_txttwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="mainTwo"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bottom_shipin"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="mainThre"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/main_imgthre"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/video"
+                    android:onClick="mainThre" />
+
+                <TextView
+                    android:id="@+id/main_txtthre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="mainThre"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bottom_tupian"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="mainFour"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/main_imgfour"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/photos"
+                    android:onClick="mainFour" />
+
+                <TextView
+                    android:id="@+id/main_txtfour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="mainFour"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bottom_geren"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:onClick="mainFive"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/main_imgfive"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/user"
+                    android:onClick="mainFive" />
+
+                <TextView
+                    android:id="@+id/main_txtfive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="mainFive"
+                    android:textSize="14dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/main_swipe"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/bottom_layout_l"
+            android:layout_below="@id/main_top">
+
+            <com.beijing.dianyingjie.VideoEnabledWebView
+                android:id="@+id/main_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbarSize="0dp"/>
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/videoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:visibility="gone" />
+</LinearLayout>

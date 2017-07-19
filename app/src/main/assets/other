@@ -1,0 +1,36 @@
+{
+	"bottom": [{
+		"name": "棣栭〉",
+		"img": "http://www.bjiff.com/images/2016app_navIcon.png",
+		"englishName": "Home",
+		"englishiUrl":"http://www.bjiff.com/app_en/",
+		"url": "http://www.bjiff.com/shoujiapp/"
+	}, {
+		"name": "鏃ョ▼瀹夋帓",
+		"img": "http://www.bjiff.com/images/2016app_navIcon.png",
+		"englishName": "Schedule",
+		"englishiUrl":"http://www.bjiff.com/app_en/rcap0422/",
+		"url": "http://www.bjiff.com/shoujiapp/rcap_1506/"
+
+	}, {
+		"name": "瑙嗛涓撳尯",
+		"img": "http://www.bjiff.com/images/2016app_navIcon.png",
+		"englishName": "Videos",
+		"englishiUrl":"http://www.bjiff.com/app_en/spzq_1583/",
+		"url": "http://www.bjiff.com/shoujiapp/spzq_1514/"
+
+	}, {
+		"name": "鍥剧墖涓撳尯",
+		"img": "http://www.bjiff.com/images/2016app_navIcon.png",
+		"englishName": "Photos",
+		"englishiUrl":"http://www.bjiff.com/app_en/tpzqphotos/fbhconference/index_202.html",
+		"url": "http://www.bjiff.com/shoujiapp/tpzq_1525/"
+	}, {
+		"name": "涓汉涓績",
+		"img": "http://www.bjiff.com/images/2016app_navIcon.png",
+		"englishName": "My Center",
+		"englishiUrl":"http://system.bjiff.com/film84/webpage/webapp/index.jsp?locale=en",
+		"url": "http://system.bjiff.com/film84/webpage/webapp/index.jsp?locale=zh"
+	}],
+	"IsH5view":[{"IsH5view":"0"}]
+}
